@@ -1,15 +1,19 @@
+
+
+
+# COLOCAR ISSO EM UMA DIVISÃO E RODAR ANTES DO CODIGO
+#---------------------------------------------------------------------------------#
 # instalar as dependências
-
-
 # Remover a hastag da linha abaixo
 # !apt-get install openjdk-11-jdk -y
 import os
 os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-11-openjdk-amd64"
 os.environ["PATH"] += os.pathsep + os.path.join(os.environ["JAVA_HOME"], "bin")
 
+#---------------------------------------------------------------------------------#
 
 
-
+#COLOCAR ISSO EM OUTRA DIVISÃO E RODAR DEPOIS DO 1° QUADRADO
 #-----------------------#
 #        Codigo         #
 #-----------------------#
